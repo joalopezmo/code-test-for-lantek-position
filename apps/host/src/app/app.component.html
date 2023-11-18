@@ -1,0 +1,15 @@
+<!-- el siguiente menu se muestra solamente si no estamos en el login component -->
+
+<mat-drawer-container>
+  <mat-drawer mode="side" opened *ngIf="isLoginRoute()">
+    <h2>Navegación</h2>
+    <ul class="remote-menu">
+      <li><a routerLink="/">Login</a></li>
+      <li><a routerLink="dashboard">Dashboard</a></li>
+    </ul>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+
+</mat-drawer-container>

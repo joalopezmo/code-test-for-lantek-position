@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "remote1/Routes": ["apps/remote1/src/app/remote-entry/entry.routes.ts"]
+      "@nx-monorepo/shared/ui": ["shared/ui/src/index.ts"],
+      "dashboard/Routes": [
+        "apps/dashboard/src/app/remote-entry/entry.routes.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

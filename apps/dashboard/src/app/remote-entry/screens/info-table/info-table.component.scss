@@ -1,0 +1,11 @@
+//se separan los botones de busqueda y se les da un estilo diferente
+
+.search-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
