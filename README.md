@@ -60,23 +60,23 @@ Just run `nx build host` to build the application. The build artifacts will be s
 
 - How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test, use this as an opportunity to explain what you would add.
 
-R/ Spend a total of 3 to 4 hours. My main idea was to cover integral topics of angular, in which I could show my use of services, my use of typescript, guards, and standalone components. I also saw it as an excellent way to show the microfronts architecture through the federation of modules with Nx and the potential it has for scalability. I performed unit testing only to the host to fundamental parts of the application, and for time optimization I decided to leave parts without coverage. In the same way I performed e2e tests to the host application using playwright leaving a part outside of the tests to save time.
+R/ Spend a total of 3 to 4 hours. My main idea was to cover integral topics of angular, in which I could show my use of services, my use of typescript, guards, and standalone components. I also saw it as an excellent way to show the microfronts architecture through the federation of modules with Nx and the potential it has for scalability. I performed unit testing only to the host to fundamental parts of the application, and for time optimization I decided to leave parts without coverage. In the same way I performed e2e tests to the host application using playwright leaving a part outside of the tests to save time. If I had more time I would have liked to finish the unit and the e2e testing, as well as add more functionality and style to the applications, I use angular material but I would have liked to create my own components, directives and custom UI library.
 
--What was the most useful feature added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
+- What was the most useful feature added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
 R/ I think the most useful feature of the latest version of angular is the use of standalone components. This allows to create components that are independent of the application, and that can be used in different applications. This is very useful for the creation of microfronts, as it allows to create components that can be used in different applications, and that can be developed independently. This allows to create applications that are scalable and independent of each other. In the project I used standalone components to create the info-table component, which is used in the dashboard and example-remote applications.
 
 https://github.com/joalopezmo/code-test-for-lantek-position/blob/2cb81b8991ae7a9456e606867a52c7c45f049f17/apps/dashboard/src/app/remote-entry/screens/info-table/info-table.component.ts#L10-L17
 
--How would you track down a performance issue in production? Have you ever had to do this?
+- How would you track down a performance issue in production? Have you ever had to do this?
 
 R/ With nx and angular is kind of easy to track down a performance issue in production. Nx has a command to analyze the bundle of the application, and angular has a command to analyze the bundle of the application. With this two commands you can analyze the bundle of the application and see the size of the different modules and components of the application. This allows to see the size of the different modules and components of the application, and to see if there is a performance issue in production. I have never had to do this, but I have used this commands to analyze the bundle of the application and see the size of the different modules and components of the application. Angular 17 has a devTools google-chrome extension that allows to see the size of the different modules, and components of the application and show graphically the injector tree to debug the early fase of the app.
 
--How would you improve the Lantek API that you just used?
+![angular injector](https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/angular-injector-tree.png)
+
+- How would you improve the Lantek API that you just used?
 
 R/ I would improve the Lantek API by adding a different form of auth to the API, maybe the use of token instead. I would also improve the API by allow other methods of the API, like the creation of new recipes, or the update of the recipes. I would also improve the API by adding a new endpoint that allows to get the information of a single recipe, instead of getting all the recipes of the API.
-
-![angular injector](https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/angular-injector-tree.png)
 
 ## Further help and communitation
 
