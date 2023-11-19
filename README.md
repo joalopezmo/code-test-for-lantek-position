@@ -58,4 +58,4 @@ Just run `nx build host` to build the application. The build artifacts will be s
 
 ## Further help and communitation
 
-Please contact me at jorgealejandrolopezmontoya@gmail.com for any further help or communication. I will be happy to help you.
+Please contact me at jorgealejandrolopezmontoya@gmail.com or www.linkedin.com/in/jorge-alejandro-lopez-mo for any further help or communication. I will be happy to help you.
