@@ -6,7 +6,7 @@ This project was generated using [Nx](https://nx.dev) with angular 17 (https://a
 
 The project is structured as a monorepo, with the following structure:
 
-![Project dependency graph. Nx Graph](nx-monorepo\apps\host\src\assets\graph.png)
+![Project dependency graph. Nx Graph](https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/graph.png)
 
 - apps: contains the different applications of the project
 - shared: contains the different libraries of the project
