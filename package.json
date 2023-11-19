@@ -2,6 +2,10 @@
   "name": "@nx-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
+  "author": {
+    "name": "Jorge Alejandro Lopez Montoya",
+    "url": "https://github.com/joalopezmo"
+  },
   "scripts": {
     "serve": "nx serve host --devRemotes=dashboard",
     "e2e-host": "nx e2e host --ui"
