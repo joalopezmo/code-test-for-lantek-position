@@ -42,7 +42,7 @@ Run `nx test host` to execute the unit tests via [Jest](https://jestjs.io). or `
 
 The unit testing was only applied to the host application, as it is the main application of the project. The unit testing was applied to the components, services, guards and interceptors of the application. The unit testing was not applied to the dashboard to save time and example-remote applications as it is just showcase application.
 
-(https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/unitTest-host.png)
+![unit testing](https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/unitTest-host.png)
 
 ## Running end-to-end tests
 
@@ -50,7 +50,7 @@ Run `nx e2e host-e2e` to execute the end-to-end tests via [Playwright](https://p
 
 The e2e testing was only applied to the host application, as it is the main application of the project. The e2e testing was applied to the components, services, guards and interceptors of the application. The e2e testing was not applied to the dashboard to save time and example-remote applications as it is just showcase application.
 
-(https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/e2e-host.png)
+![e2e testing](https://github.com/joalopezmo/nx-monorepo/blob/master/apps/host/src/assets/e2e-host.png)
 
 ## deploy the project
 
