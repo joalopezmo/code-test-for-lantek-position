@@ -32,9 +32,9 @@ export class InfoTableComponent implements OnInit {
   }
 
   filterMachines(event: any) {
-    const filterValue = event.target.value.toLowerCase();
+    const filterValue = event.target.value.trim().toLowerCase();
 
-    // se crea la variable filteredMachines y se filtra segun el valor del input
+    // se crea la variable filteredMachines y se filtra segun el valor del input a medida que se va escribiendo
     const filteredMachines = this.machines.value.filter((machine) => {
       return (
         machine.id.toLowerCase().includes(filterValue) ||
@@ -45,7 +45,8 @@ export class InfoTableComponent implements OnInit {
     });
     //se actualiza la tabla
     this.machines.next(filteredMachines);
-    this.dataSource = new MatTableDataSource<machine>(this.machines.value);
+    // this.dataSource = new MatTableDataSource<machine>(this.machines.value);
+    this.dataSource.data = filteredMachines;
   }
 
   //se crea el metodo para buscar todas las maquinas

@@ -8,14 +8,17 @@ mat-drawer-container {
 
     mat-drawer {
         flex: 1;
-        padding-left: 1%;
-        padding-right: 1.5%;
+        padding-left: 1.5%;
+        padding-right: 1%;
+        padding-top: 1.5%;
 
     }
 
     mat-drawer-content {
         flex: 3;
         padding: 2% 2% 2% 2%;
+        height: 90%;
+        width: 85vw;
     }
 
     // mat-drawer-content {}

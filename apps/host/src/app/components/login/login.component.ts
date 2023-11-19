@@ -56,6 +56,7 @@ export class LoginComponent implements OnInit {
         },
         error: (error) => {
           console.error('Error al autenticar', error);
+          // se muestra un alert con mensaje de error
           if (error.status === 401) {
             this.errorMessage =
               'Credenciales inválidas. Por favor, inténtalo de nuevo.';
@@ -63,6 +64,7 @@ export class LoginComponent implements OnInit {
             this.errorMessage =
               'Ocurrió un error. Por favor, inténtalo más tarde.';
           }
+          // alert(this.errorMessage);
         },
         complete: () => console.log('Login finalizado'),
       });

@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:playwright/recommended", "../../.eslintrc.json"],
+  "extends": ["../../.eslintrc.json"],
   "ignorePatterns": ["!**/*"],
   "overrides": [
     {
@@ -30,10 +30,6 @@
     {
       "files": ["*.html"],
       "extends": ["plugin:@nx/angular-template"],
-      "rules": {}
-    },
-    {
-      "files": ["e2e/**/*.{ts,js,tsx,jsx}"],
       "rules": {}
     }
   ]
